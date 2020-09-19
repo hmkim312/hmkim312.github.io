@@ -1,3 +1,11 @@
+---
+title: 타이타닉 튜토리얼
+author: HyunMin Kim
+date: 2020-09-19 20:30:00 0000
+categories: [Datascience, Python]
+tags: [Kaggle, Titanic, EDA]
+---
+
 # 타이타닉 튜토리얼
 - 만약 데이터 사이언스, 머신러닝 또는 캐글에서 어떤 것을 해야하는 지 잘 모르는 newbie 라면, 타이타닉을 하시는 게 가장 좋은 선택입니다.
 - 타이타닉은 아시다시피, 사상 최대 해난사고로써, 1,500여명의 희생자가 생겼습니다.
@@ -491,7 +499,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output/output_13_0.png)
+<img src=  "https://user-images.githubusercontent.com/60168331/93667165-be338880-fabe-11ea-8f2d-008c7627d345.png">
 
 
 
@@ -501,7 +509,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output//output_14_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667167-c095e280-fabe-11ea-9e72-8c99f6f541a1.png">
 
 
 #### 1.2 Target label 확인
@@ -522,7 +530,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output//output_16_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667168-c12e7900-fabe-11ea-868a-383351934c20.png">
 
 
 - 죽은 사람이 많음
@@ -731,7 +739,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output//output_25_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667169-c1c70f80-fabe-11ea-86cb-a4bd356202b4.png">
 
 
 - 보다시피, Pclass 가 좋을 수록(1st) 생존률이 높은 것을 확인할 수 있습니다.
@@ -751,7 +759,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output//output_27_0.png)
+<img  src="https://user-images.githubusercontent.com/60168331/93667170-c25fa600-fabe-11ea-99a0-a8292dc25ce1.png">
 
 
 - 클래스가 높을 수록, 생존 확률이 높은걸 확인할 수 있습니다. Pclass 1, 2, 3 순서대로 63%, 48%, 25% 입니다
@@ -772,7 +780,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output//output_30_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667171-c2f83c80-fabe-11ea-9acf-0ded4d0a8aaa.png">
 
 
 - 보시다시피, 여자가 생존할 확률이 높습니다.
@@ -898,7 +906,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output//output_36_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667173-c390d300-fabe-11ea-8ea2-75662e074a1b.png">
 
 
 - 모든 클래스에서 female 이 살 확률이 male 보다 높은 걸 알 수 있습니다.
@@ -913,7 +921,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output//output_38_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667174-c390d300-fabe-11ea-8800-4cde74d0f3e0.png">
 
 
 #### 2.4 Age
@@ -943,7 +951,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output//output_42_0.png)
+<img  src="https://user-images.githubusercontent.com/60168331/93667175-c4296980-fabe-11ea-91cf-0527f2e710b3.png">
 
 
 - 보시다시피, 생존자 중 나이가 어린 경우가 많음을 볼 수 있습니다.
@@ -963,7 +971,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output//output_44_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667177-c4c20000-fabe-11ea-8dba-ebb1eac7010b.png">
 
 
 - Class 가 높을 수록 나이 많은 사람의 비중이 커짐
@@ -985,7 +993,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output//output_46_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667178-c4c20000-fabe-11ea-9bdc-a77d3355bf9e.png">
 
 
 - 보시다시피, 나이가 어릴 수록 생존률이 확실히 높은것을 확인할 수 있습니다.
@@ -1010,7 +1018,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output/output_49_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667179-c55a9680-fabe-11ea-8556-f6dff8ccff48.png">
 
 
 - 왼쪽 그림은 Pclass 별로 Age의 distribution 이 어떻게 다른지, 거기에 생존여부에 따라 구분한 그래프입니다.
@@ -1032,7 +1040,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output/output_52_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667180-c5f32d00-fabe-11ea-8bae-6e93a98c982b.png">
 
 
 - 보시다시피, 조금의 차이는 있지만 생존률은 좀 비슷한 거 같습니다. 그래도 C가 제일 높군요.
@@ -1056,7 +1064,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output/output_54_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667181-c5f32d00-fabe-11ea-85db-845e74f7d3d8.png">
 
 
 - Figure(1) - 전체적으로 봤을 때, S 에서 가장 많은 사람이 탑승했습니다.
@@ -1102,7 +1110,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output/output_60_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667182-c68bc380-fabe-11ea-8a15-ebe34e3d4126.png">
 
 
 - Figure (1) - 가족크기가 1~11까지 있음을 볼 수 있습니다. 대부분 1명이고 그 다음으로 2, 3, 4명입니다.
@@ -1119,7 +1127,7 @@ g = g.legend(loc = 'best')
 ```
 
 
-![png](2020-09-19-titanic_output/output_63_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667183-c7245a00-fabe-11ea-8671-ad6706123e29.png">
 
 
 - 보시다시피, distribution이 매우 비대칭인 것을 알 수 있습니다.(high skewness). 만약 이대로 모델에 넣어준다면 자칫 모델이 잘못 학습할 수도 있습니다. 몇개 없는 outlier 에 대해서 너무 민감하게 반응한다면, 실제 예측 시에 좋지 못한 결과를 부를 수 있습니다.
@@ -1144,7 +1152,7 @@ g = g.legend(loc = 'best')
 ```
 
 
-![png](2020-09-19-titanic_output/output_66_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667184-c7bcf080-fabe-11ea-9b2a-2ce930428f3c.png">
 
 
 - log 를 취하니, 이제 비대칭성이 많이 사라진 것을 볼 수 있습니다.
@@ -1639,7 +1647,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output/output_83_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667185-c8558700-fabe-11ea-9788-9aa2c3d3af49.png">>
 
 
 - 이제 본격적으로 Null 을 채울 것입니다. null data 를 채우는 방법은 정말 많이 존재합니다. statistics 를 활용하는 방법도 있고, null data 가 없는 데이터를 기반으로 새로운 머신러닝 알고리즘을 만들어 예측해서 채워넣는 방식도 있습니다. 여기서는 statistics 를 활용하는 방법을 사용할 것입니다.
@@ -1960,7 +1968,7 @@ del heatmap_data
 ```
 
 
-![png](2020-09-19-titanic_output/output_114_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667186-c8558700-fabe-11ea-9b53-5bdd888a93d0.png">
 
 
 - 우리가 EDA에서 살펴봤듯이, Sex 와 Pclass 가 Survived 에 상관관계가 어느 정도 있음을 볼 수 있습니다.
@@ -2518,7 +2526,7 @@ plt.show()
 ```
 
 
-![png](2020-09-19-titanic_output/output_142_0.png)
+<img src="https://user-images.githubusercontent.com/60168331/93667187-c8ee1d80-fabe-11ea-99e7-e3eaa2f6cf02.png">
 
 
 - 우리가 얻은 모델에서는 Fare 가 가장 큰 영향력을 가지며, 그 뒤로 Initial_2, Age_cat, Pclass가 차례로 중요도를 가집니다
