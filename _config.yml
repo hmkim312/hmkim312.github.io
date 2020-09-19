@@ -8,9 +8,9 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: 기록을 위해 만든 블로그..                         # the main title
+title: 느려도 꾸준히                     # the main title
 
-tagline: 성장하기 위해 기록을 시작합니다.  # it will display as the sub-title
+tagline: 데이터 분석가가 되기 위해 꾸준히 공부하고 있습니다. 잘 부탁드립니다.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -51,7 +51,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/seoul
+timezone: Asia/Seoul
 
 google_analytics:
   id: ''          # Fill with your Google Analytics ID
