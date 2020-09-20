@@ -11,9 +11,7 @@
 title: 느려도 꾸준히                     # the main title
 
 tagline: 데이터 분석가를 꿈꾸는
-        </br> 초보 분석가 김현민 입니다. </br>
-        </br> 화면이 어두우시면 하단의 달모양</br>
-        버튼을 클릭해주세요.   # it will display as the sub-title
+        </br> 초보 분석가 김현민 입니다. </br>   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -81,7 +79,7 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode: dual
+theme_mode: light
 
 # boolean type, global switch for ToC in posts.
 toc: true
