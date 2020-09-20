@@ -2,8 +2,8 @@
 title: 머신러닝 기초 - 의사결정나무(1)
 author: HyunMin Kim
 date: 2020-09-20 21:30:00 0000
-categories: [Datascience, Python]
-tags: [Machine_learning, Sklearn, Decision_Tree, Graphviz, Mlxtend]
+categories: [Datascience, Machine learning]
+tags: [Sklearn, Decision Tree, Graphviz, Mlxtend]
 ---
 
 ## 1. 머신 러닝이란?
