@@ -30,7 +30,7 @@ tags: [Machine_learning, Sklearn, Decision_Tree, Graphviz, Mlxtend]
 - 열역학의 용어로 물질의 열적 상태를 나타내는 물리량 단위중 하나, 무질서의 정도를 나타냄
 - 얼마만큼의 정보를 담고 있는가? 또한, 무질서도를 의미, 불확실성을 나타내기도 함
 - <img src = 'https://latex.codecogs.com/gif.latex?-p_ilog2p_i'>
--<img src = 'https://user-images.githubusercontent.com/60168331/93713044-8139c580-fb94-11ea-9818-5b769009c3ac.png'>
+- <img src = 'https://user-images.githubusercontent.com/60168331/93713044-8139c580-fb94-11ea-9818-5b769009c3ac.png'>
 - p는 해당 데이터가 해당 클래스에 속할 확률
 - 엔트로피는 이 확률들의 합이다
 - <img src = 'https://latex.codecogs.com/gif.latex?\textup{Entroyp}&space;=&space;\sum_{k=1}^{m}&space;-p_ilog2p_i'>
