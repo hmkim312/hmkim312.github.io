@@ -2,8 +2,8 @@
 title: 타이타닉 튜토리얼
 author: HyunMin Kim
 date: 2020-09-19 20:30:00 0000
-categories: [Datascience, Python]
-tags: [Kaggle, Titanic, EDA]
+categories: [Datascience, Machine Learning]
+tags: [Kaggle, Titanic, EDA, Sklearn]
 ---
 
 # 타이타닉 튜토리얼

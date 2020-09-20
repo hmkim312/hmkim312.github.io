@@ -2,7 +2,7 @@
 title: 머신러닝 기초 - 의사결정나무(2)
 author: HyunMin Kim
 date: 2020-09-20 22:30:00 0000
-categories: [Datascience, Machine learning]
+categories: [Datascience, Machine Learning]
 tags: [Sklearn, Decision Tree, Stratify]
 ---
 

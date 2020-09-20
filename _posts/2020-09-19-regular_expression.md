@@ -2,8 +2,8 @@
 title: Regular Express
 author: HyunMin Kim
 date: 2020-09-19 16:30:00 0000
-categories: [Datascience, Python]
-tags: [Regular Express, Study]
+categories: [Python]
+tags: [Regular Express]
 ---
 
 
