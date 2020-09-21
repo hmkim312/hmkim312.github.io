@@ -159,7 +159,7 @@ X2 = pca1.inverse_transform(X_low)
 - 입력원소의 크기 순서와 출력원소의 크기 순서가 같다.
 - 다변수 입력을 확률처럼 보이게 출력 한다.
 
- ### 2.22 함수의 평행이동
+### 2.22 함수의 평행이동
 -  <img src="https://latex.codecogs.com/gif.latex?f%28x%29%20%5C%3B%5C%3B%20%5Crightarrow%20%5C%3B%5C%3B%20f%28x-a%29" />
 -  <img src="https://latex.codecogs.com/gif.latex?-" />은 오른쪽으로 이동,  <img src="https://latex.codecogs.com/gif.latex?&plus;" />는 왼쪽으로 이동
 -  <img src="https://latex.codecogs.com/gif.latex?f%28x%29%20%5C%3B%5C%3B%20%5Crightarrow%20%5C%3B%5C%3B%20f%28x%29&plus;b" />
