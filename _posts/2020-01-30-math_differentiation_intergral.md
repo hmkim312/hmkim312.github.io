@@ -190,8 +190,6 @@ sympy.integrate(f, x)
 	- 선형 모형을 미분하면 그레디언트 벡터는 가중치다
 	<img src ="https://latex.codecogs.com/gif.latex?%5Cnabla%20f%20%3D%20%5Cfrac%7B%5Cpartial%20%7Bw%7D%5E%7BT%7D%7Bx%7D%7D%7B%5Cpartial%20%7Bx%7D%7D%20%3D%20%5Cfrac%7B%5Cpartial%20%7Bx%7D%5E%7BT%7D%7Bw%7D%7D%7B%5Cpartial%20%7Bx%7D%7D%20%3D%20%7Bw%7D"/>
 
-</br>
-
 - 행렬 미분 법칙 2 : 이차 형식
 	- 이차형식을 미분하면 행렬과 벡터의 곱으로 나타난다.
 	- <img src = "https://latex.codecogs.com/gif.latex?%5Cnabla%20f%28x%29%20%3D%20%5Cfrac%7B%5Cpartial%20%7Bx%7D%5E%7BT%7D%7BA%7D%7Bx%7D%7D%7B%5Cpartial%20%7Bx%7D%7D%20%3D%20%28%7BA%7D%20&plus;%20%7BA%7D%5E%7BT%7D%29%7Bx%7D"/>
