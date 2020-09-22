@@ -1,5 +1,5 @@
 ---
-title: 의사결정나무(1)
+title: 의사결정나무(Decision Tree) -1
 author: HyunMin Kim
 date: 2020-09-20 21:30:00 0000
 categories: [Datascience, Machine Learning]
@@ -12,8 +12,8 @@ tags: [Sklearn, Decision Tree, Graphviz, Mlxtend]
 - 과거의 데이터로부터 얻은 경험이 쌓여 감에 따라 주어진 태스크의 성능이 점점 좋아질 때 컴퓨터 프로그램은 경험으로부터 학습한다.
 - Machine이 주어진 데이터를 통해 규칙을 찾는것
 
-## 2. Decision Tree
-### 2.1 Decision Tree 란?
+## 2. 의사결정나무(Decision Tree)
+### 2.1 의사결정나무(Decision Tree) 란?
 - 이진분류와 회귀에 모두 사용하능
 - 정답을 알려주는 지도학습 모델 
 - 특정 기준에 따라 데이터를 구분하는 모델
@@ -21,7 +21,7 @@ tags: [Sklearn, Decision Tree, Graphviz, Mlxtend]
 - Root Node : 가장 처음에 있는 노드
 - Terminal Node(leaf Node) : 맨 마지막 노드
 
-### 2.2 Decision Tree의 분할 기준(split Criterion)
+### 2.2 의사결정나무(Decision Tree)의 분할 기준(Split Criterion)
 #### 2.2.1 정보 획득(Information Gain)
 - 정보의 가치를 반환하는데 발생하는 사전의 확률이 작을 수록 정보의 가치를 커짐
 - 정보 이득이란 어떤 속성을 선택함으로 인해서 데이터를 더 잘 구분하게 되는것
