@@ -1,5 +1,5 @@
 ---
-title: 하이퍼파라미터 튜닝
+title: 하이퍼파라미터 튜닝(Hyperparameter Tuning)
 author: HyunMin Kim
 date: 2020-09-21 15:00:00 0000
 categories: [Datascience, Machine Learning]

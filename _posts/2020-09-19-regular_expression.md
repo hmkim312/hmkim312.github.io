@@ -1,5 +1,5 @@
 ---
-title: Regular Express
+title:  정규표현식(Regular Express)
 author: HyunMin Kim
 date: 2020-09-19 16:30:00 0000
 categories: [Python]
