@@ -2,7 +2,7 @@
 title: 가상 화폐 가격 Crawling - 빗썸(bithumb)
 author: HyunMin Kim
 date: 2020-03-18 19:00:00 0000
-categories: [Datascience, Project]
+categories: [Data Science, Project]
 tags: [Crawling]
 ---
 

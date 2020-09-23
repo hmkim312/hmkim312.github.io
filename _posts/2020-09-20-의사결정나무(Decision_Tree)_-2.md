@@ -2,7 +2,7 @@
 title: 의사결정나무(Decision Tree) -2
 author: HyunMin Kim
 date: 2020-09-20 22:30:00 0000
-categories: [Datascience, Machine Learning]
+categories: [Data Science, Machine Learning]
 tags: [Sklearn, Decision Tree, Stratify]
 ---
 

@@ -2,7 +2,7 @@
 title: 타이타닉 튜토리얼 with Kaggle
 author: HyunMin Kim
 date: 2020-09-19 20:30:00 0000
-categories: [Datascience, Machine Learning]
+categories: [Data Science, Machine Learning]
 tags: [Kaggle, Titanic, EDA, Sklearn]
 ---
 

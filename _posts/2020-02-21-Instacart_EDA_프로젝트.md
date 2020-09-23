@@ -2,7 +2,7 @@
 title: Instacart EDA 프로젝트
 author: HyunMin Kim
 date: 2020-02-21 19:30:00 0000
-categories: [Datascience, Project]
+categories: [Data Science, Project]
 tags: [EDA]
 ---
 

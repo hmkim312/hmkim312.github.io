@@ -1,8 +1,8 @@
 ---
-title:  확률(Probability)의 수학적 정의와 의미, 성질, 분포 함수
+title: 확률(Probability)의 수학적 정의와 의미, 성질, 분포 함수
 author: HyunMin Kim
 date: 2020-02-03 12:00:00 0000
-categories: [Datascience, Math]
+categories: [Data Science, Math]
 tags: [Probability, Sample, Sample Space,  Probabilistic Sample, Random Space, Frequentist, Bayesian] 
 ---
 
