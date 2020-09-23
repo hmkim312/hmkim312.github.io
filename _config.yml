@@ -14,9 +14,7 @@ tagline: 데이터 분석가를 꿈꾸는
         </br> 초보 분석가 김현민 입니다. </br>   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  안녕하세요? 반갑습니다. 기억하기 위해 기록하는 공간입니다.
 
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://hmkim312.github.io/'
