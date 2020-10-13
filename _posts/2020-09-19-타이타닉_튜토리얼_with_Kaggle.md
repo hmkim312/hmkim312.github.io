@@ -1169,9 +1169,6 @@ g = g.legend(loc = 'best')
 df_train.head()
 ```
 
-
-
-
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1999,7 +1996,7 @@ df_train.head()
 
 
 
-<div>
+<div style="width:100%; height:100%; overflow:auto">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -2180,7 +2177,7 @@ df_train.head()
 
 
 
-<div>
+<div style="width:100%; height:100%; overflow:auto">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -2314,7 +2311,7 @@ df_test.head()
 
 
 
-<div>
+<div style="width:100%; height:100%; overflow:auto">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
