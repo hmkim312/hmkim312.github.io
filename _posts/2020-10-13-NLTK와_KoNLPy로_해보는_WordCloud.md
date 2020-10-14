@@ -137,7 +137,7 @@ list(stopwords)[:3]
 ```
     ["they've", 'i', 'ours']
 
-- <https://github.com/hmkim312/datas/tree/main/alice>
+- <https://github.com/hmkim312/datas/tree/main/alice>{: target="_blank"}
 - 실습에 사용한 데이터는 위 링크에 있음
 - alice : 이상한 나라의 엘리스의 영어 단어본
 - stopwords : 분석에 사용하지 않을 단어들의 모음, 보통 의미가 중복되는것이 들어가있음, said라는 단어를 추가 시킴
