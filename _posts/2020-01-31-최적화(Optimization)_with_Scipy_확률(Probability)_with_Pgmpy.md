@@ -3,7 +3,7 @@ title: 최적화(Optimization) with Scipy, 확률(Probability) with Pgmpy
 author: HyunMin Kim
 date: 2020-01-31 12:00:00 0000
 categories: [Data Science, Math]
-tags: [Scipy, Pgmpy, Optimization, Probability, Cvxpy, Set, GridSearch, KKT, Numerical Optimization, CVXOTP, Quadratic Programming, Lagrange Multiplier] 
+tags: [Scipy, Pgmpy, Optimization, Probability, Cvxpy, Set, Grid Search, KKT, Numerical Optimization, CVXOTP, Quadratic Programming, Lagrange Multiplier] 
 ---
 
 ## 1. 변분법
