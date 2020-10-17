@@ -79,8 +79,8 @@ require(['plotly'], function(Plotly) {
 
 ```python
 # 데이터 불러오기
-df_train = pd.read_csv('data/train.csv')
-df_test = pd.read_csv('data/test.csv')
+df_train = pd.read_csv('https://raw.githubusercontent.com/hmkim312/datas/main/titanic/train.csv')
+df_test = pd.read_csv('https://raw.githubusercontent.com/hmkim312/datas/main/titanic/test.csv)
 ```
 
 
