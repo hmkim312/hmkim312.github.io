@@ -3,7 +3,7 @@ title: 클러스터링(Clustering)
 author: HyunMin Kim
 date: 2020-10-21 10:10:00 0000
 categories: [Python, Machine Learning]
-tags: [K-Means, Make Blobs, Silhouette]
+tags: [K-Means, Make Blobs, Silhouette, Clustering]
 ---
 
 ## 1.K-Means
