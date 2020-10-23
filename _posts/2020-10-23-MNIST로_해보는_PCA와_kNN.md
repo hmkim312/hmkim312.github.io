@@ -2,7 +2,7 @@
 title: MNIST로 해보는 PCA와 kNN
 author: HyunMin Kim
 date: 2020-10-23 16:10:00 0000
-categories: [Python, Machine Learning]
+categories: [Data Science, Machine Learning]
 tags: [kNN, PCA, Mnist, Confusion Matrix]
 ---
 

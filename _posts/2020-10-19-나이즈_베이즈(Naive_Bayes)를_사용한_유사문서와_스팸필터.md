@@ -2,7 +2,7 @@
 title: 나이즈 베이즈(Naive Bayes)를 사용한 유사문서와 스팸필터
 author: HyunMin Kim
 date: 2020-10-19 11:10:00 0000
-categories: [Python, Machine Learning]
+categories: [Data Science, Machine Learning]
 tags: [Fetch 20newsgroups, Tfidf Transformer, Count Vectorize, Pipeline, Sparse Matrix, Classification Report, Multinomial Naive Bayes, Confusion Matrix, Spam, Compression]
 ---
 

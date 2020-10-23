@@ -2,7 +2,7 @@
 title: 정밀도(Precision)와 재현율(Recall)
 author: HyunMin Kim
 date: 2020-10-19 10:10:00 0000
-categories: [Python, Machine Learning]
+categories: [Data Science, Machine Learning]
 tags: [Recall, Precision, Classification Report, Confusion Matrix, Precision Recall Curve, Threshold]
 ---
 

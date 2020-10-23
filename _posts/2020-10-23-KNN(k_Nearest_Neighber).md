@@ -2,7 +2,7 @@
 title: kNN(k Nearest Neighber)
 author: HyunMin Kim
 date: 2020-10-23 13:10:00 0000
-categories: [Python, Machine Learning]
+categories: [Data Science, Machine Learning]
 tags: [kNN, Confusion Matrix]
 ---
 

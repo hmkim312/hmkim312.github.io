@@ -2,7 +2,7 @@
 title: Mall Customer Segmentation Data로 해보는 군집화
 author: HyunMin Kim
 date: 2020-10-22 09:10:00 0000
-categories: [Python, Machine Learning]
+categories: [Data Science, Machine Learning]
 tags: [K-Means, Clustering, Kaggle]
 ---
 

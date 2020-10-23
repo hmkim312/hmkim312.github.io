@@ -2,7 +2,7 @@
 title: 와인데이터로 해보는 부스팅 알고리즘(Boosting Algorithm)
 author: HyunMin Kim
 date: 2020-10-23 09:10:00 0000
-categories: [Python, Machine Learning]
+categories: [Data Science, Machine Learning]
 tags: [Boosting Algorithm, Voting, Bagging, Ensemble]
 ---
 
