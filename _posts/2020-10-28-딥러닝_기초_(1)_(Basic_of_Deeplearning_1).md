@@ -1,7 +1,7 @@
 ---
-title: 딥러닝 기초(Basic of Deeplearning)
+title: 딥러닝 기초 (1) (Basic of Deeplearning 1)
 author: HyunMin Kim
-date: 2020-10-26 10:00:00 0000
+date: 2020-10-28 10:00:00 0000
 categories: [Data Science, Deep Learning]
 tags: [Tensorflow, Neural Net, Linear Regression, Loss Function, Activation Function, GD, SGD, Adam, Softmax, ]
 ---
