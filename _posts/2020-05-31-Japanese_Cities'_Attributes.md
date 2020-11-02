@@ -1,7 +1,7 @@
 ---
 title: Japanese Cities' Attributes
 author: HyunMin Kim
-date: 2020-11-02 18:00:00 0000
+date: 2020-05-31 18:00:00 0000
 categories: [Hacker Ranker, SQL]
 tags: [MySQL, Oracle, Where]
 ---

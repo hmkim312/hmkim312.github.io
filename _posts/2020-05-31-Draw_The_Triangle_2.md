@@ -1,7 +1,7 @@
 ---
 title: Draw The Triangle 2
 author: HyunMin Kim
-date: 2020-11-02 15:00:00 0000
+date: 2020-05-31 15:00:00 0000
 categories: [Hacker Ranker, SQL]
 tags: [MySQL]
 ---

@@ -1,7 +1,7 @@
 ---
 title: Average Population of Each Continent
 author: HyunMin Kim
-date: 2020-11-02 12:00:00 0000
+date: 2020-05-31 12:00:00 0000
 categories: [Hacker Ranker, SQL]
 tags: [MySQL, Join, Group By]
 ---
