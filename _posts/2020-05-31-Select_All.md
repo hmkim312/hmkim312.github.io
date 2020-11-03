@@ -14,5 +14,5 @@ tags: [MySQL, Oracle]
 
 ```sql
 SELECT *
-    FROM city
+FROM city
 ```
