@@ -2,8 +2,8 @@
 title: 타이타닉 튜토리얼 with Kaggle
 author: HyunMin Kim
 date: 2020-09-19 20:30:00 0000
-categories: [Data Science, Machine Learning]
-tags: [Kaggle, Titanic, EDA, Sklearn]
+categories: [Kaggle, Titanic]
+tags: [Kaggle Transcription, Titanic, EDA, Sklearn]
 ---
 
 # 타이타닉 튜토리얼
@@ -2622,8 +2622,3 @@ submission.to_csv('result/0.82_submission.csv', index = False)
 - 본 튜토리얼을 따라해주셔서 감사하며, 제 유투브 채널에 강의도 올려놨으니 한번 보시면 됩니다!
 - 본 튜토리얼을 따라하시다가, 혹시 문제가 있거나, 궁금한 사항이 있으면 언제든 말씀해주세요! 저도 더 성장하길 원합니다!
 - 본 튜토리얼은 https://www.kaggle.com/arthurtok/introduction-to-ensembling-stacking-in-python, https://www.kaggle.com/startupsci/titanic-data-science-solutions, https://www.kaggle.com/ash316/eda-to-prediction-dietanic, https://www.kaggle.com/yassineghouzam/titanic-top-4-with-ensemble-modeling 을 참고하여 만들었습니다. 공유해주신 캐글러께 감사드립니다.
-
-
-```python
-
-```
