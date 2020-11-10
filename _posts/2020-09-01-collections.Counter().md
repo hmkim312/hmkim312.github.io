@@ -1,5 +1,5 @@
 ---
-title: collections.Counter() (Python 3)
+title: Collections.Counter() (Python 3)
 author: HyunMin Kim
 date: 2020-09-01 00:00:00 0000
 categories: [Hacker Ranker, Python HR]
