@@ -1,5 +1,5 @@
 ---
-title: itertools.combinations with replacement() (Python 3)
+title: Itertools.combinations with replacement() (Python 3)
 author: HyunMin Kim
 date: 2020-09-01 00:00:00 0000
 categories: [Hacker Ranker, Python HR]
