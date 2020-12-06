@@ -1,5 +1,5 @@
 ---
-title: The_Minion_Game (Python 3)
+title: The Minion Game (Python 3)
 author: HyunMin Kim
 date: 2020-09-01 00:00:00 0000
 categories: [Hacker Ranker, Python HR]
