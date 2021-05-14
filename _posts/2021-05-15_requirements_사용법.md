@@ -1,7 +1,7 @@
 ---
 title: Requirements 사용법
 author: HyunMin Kim
-date: 2021-05-14 00:00:00 0000
+date: 2021-05-15 00:00:00 0000
 categories: [Python, Virtual Environment]
 tags: [Requirements, Pip,]
 ---
