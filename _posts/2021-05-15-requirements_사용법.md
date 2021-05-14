@@ -6,7 +6,7 @@ categories: [Python, Virtual Environment]
 tags: [Requirements, Pip,]
 ---
 
-## Requirements 사용법
+## Requirements 사용법_
 ---
 ### 1. 사용 이유
 - 테스트 서버에서 가상환경을 구축 후 개발 후 다른 서버에 배포할때, 테스트 서버에서 설치한 패키지나 라이브러리를 하나씩 설치하는것이 아닌 requirements를 제공하여 패키지 및 라이브러리를 손쉽게 설치하도록 하기 위해 사용한다.
