@@ -1,5 +1,5 @@
 ---
-title: IBM HR Data로 해보는 퇴사자_예측
+title: IBM HR Data로 해보는 퇴사자 예측
 author: HyunMin Kim
 date: 2021-06-02 00:00:00 0000
 categories: [Data Science, Machine Learning]
@@ -12,7 +12,7 @@ tags: [XGBoost, Random Forest, Logistic Regression, LightGBM, Decision Tree, Gri
 ---
 - IBM 데이터 과학자들이 만든 가상의 HR 데이터셋입니다.
 - 1,470명에 대한 35개의 변수가 기록되어 있고, 종속변수는 <b>Attrition</b>, 즉 0 또는 1의 퇴사 여부입니다.
-- Data Source: https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset
+- Data Source: <https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset>{:target="_blank"}
 
 ## 순서
 0. 패키지 import
@@ -94,7 +94,7 @@ data.tail()
 
 
 
-<div>
+<div style="width:100%; height:300px; overflow:auto">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -588,7 +588,8 @@ data
 
 
 
-<div>
+<div style="width:100%; height:300px; overflow:auto">
+
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -602,6 +603,7 @@ data
         text-align: right;
     }
 </style>
+
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1528,7 +1530,7 @@ data.tail()
 
 
 
-<div>
+<div style="width:100%; height:300px; overflow:auto">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -1872,7 +1874,7 @@ vif.sort_values(by='VIF Factor', ascending = False)
 
 
 
-<div>
+<div >
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
