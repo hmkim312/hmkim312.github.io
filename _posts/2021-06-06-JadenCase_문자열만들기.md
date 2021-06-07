@@ -1,5 +1,5 @@
 ---
-title: JadenCase 문자열 만들기[Python]
+title: JadenCase 문자열 만들기 [Python]
 author: HyunMin Kim
 date: 2021-06-06 00:00:00 0000
 categories: [Programers, Python Lv2]
