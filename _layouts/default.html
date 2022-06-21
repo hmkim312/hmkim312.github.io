@@ -21,6 +21,10 @@ layout: compress
   {% endif %}
 {% endcapture %}
 
+{% if page.use_math %}
+  {% include mathjax_support.html %}
+{% endif %}
+
 <html lang="{{ lang }}" {{ prefer_mode }} >
 
   {% include head.html %}

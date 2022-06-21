@@ -88,6 +88,11 @@ markdown: kramdown
 
 highlighter: rouge
 
+# latex 추가 부분
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge
