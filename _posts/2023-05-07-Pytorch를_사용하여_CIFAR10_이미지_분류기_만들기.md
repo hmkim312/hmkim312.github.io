@@ -7,7 +7,7 @@ tags: [Deep Learning, CIFAR10]
 ---
 
 ## CIFAR10 이미지 분류기 만들기
-- 합성곱 신경망(Convolution Neural Network)을 사용하여 성능이 향상된 이미지 분류기 생성 (w. Vgg16)
+- 합성곱 신경망(Convolution Neural Network)을 사용하여 성능이 향상된 이미지 분류기 생성 (w.Vgg16)
 
 ### 목차
 1. 개요 및 결론 요약
