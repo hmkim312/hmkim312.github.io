@@ -8,13 +8,12 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: 기록                     # the main title
+title: Data </br> Include </br> Me </br>                    # the main title
 
-tagline: 오늘보다 더 나은
-        </br> 내일을 위해 </br>   # it will display as the sub-title
+tagline:    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  안녕하세요? 반갑습니다. 기억하기 위해 기록하는 공간입니다.
+  Data Science Blog
 
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://datainclude.me/'
@@ -204,3 +203,6 @@ sitemap_exclude:  # Sitemap will exclude the following items.
     - sitemap.xml
     - robots.txt
     - redirects.json
+
+plugins:
+  - jemoji
