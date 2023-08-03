@@ -7,7 +7,7 @@
 # MIT License
 ---
 
-# Welcome to Data Include Me!
+## Welcome to Data Include Me!
 ## :boy: Introduce
 - 안녕하세요? 저는 Data Scientist 3년차 직장인입니다.
 - 보안/물류, 에듀테크 스타트업에서 Data Analysis, Machine Learning, Deep Learning 업무를 맡아 진행했습니다.
