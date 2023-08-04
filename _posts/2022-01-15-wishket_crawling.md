@@ -2,7 +2,7 @@
 title: 위시켓 프로젝트 크롤링 하기
 author: HyunMin Kim
 date: 2022-01-15 00:00:00 0000
-categories: [Data Science, Project]
+categories: [Python, Crawling]
 tags: [Crawling]
 ---
 
