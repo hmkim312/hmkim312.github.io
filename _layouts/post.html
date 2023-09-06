@@ -7,16 +7,6 @@ layout: default
 # MIT Licensed
 ---
 
-{% assign img_parts = content | split: '<img src="' %}
-{% if img_parts.size > 1 %}
-  {% assign img_src = img_parts[1] | split: '"' | first %}
-{% else %}
-  {% assign img_src = "https://datainclude.me/assets/img/sample/avatar.jpg" %}
-{% endif %}
-
-
-<meta property="og:image" content="{{ img_src }}" />
-
 <div class="row">
 
   <div id="post-wrapper" class="col-12 col-lg-11 col-xl-8">
@@ -89,16 +79,17 @@ layout: default
 
       <div class="post-content">
 
-        {% if page.image %}
-        <img src="{{ page.image }}" class="post-preview-img">
-        {% endif %}
+        <!-- {% if page.image %}
+        <img src= '{{ page.image }}' class="post-preview-img">
+        {% endif %} -->
 
         <!-- Using lozad. See: <https://github.com/ApoorvSaxena/lozad.js#usage> -->
         {% if content contains '<img src=' %}
-          {{ content | replace: '<img src=', '<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src=' }}
+        {{ content | replace: '<img src=', '<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src=' }}
         {% else %}
           {{ content }}
         {% endif %}
+
       </div>
 
       <div class="post-tail-wrapper text-muted">

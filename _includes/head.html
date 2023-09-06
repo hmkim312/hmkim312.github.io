@@ -18,6 +18,10 @@
   </title>
 
   {% seo title=false %}
+  {% unless page.image %}
+    <meta property="og:image" content="{{ site.meta_image }}" />
+  {% endunless %}
+ 
 
   {% include favicons.html %}
 
