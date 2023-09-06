@@ -14,7 +14,6 @@ tagline: Data Science Blog   # it will display as the sub-title
 
 description: 데이터 사이언티스트를 위한 블로그입니다. 머신러닝, 딥러닝, 파이썬 및 데이터 분석에 관한 최신 정보와 튜토리얼을 제공합니다. 이곳에서 데이터 과학의 세계를 함께 탐험해보세요.  # used by seo meta and the atom feed
   
-
 image: /assets/img/sample/avatar.jpg
 
 # Replace with the website url, e.g. 'https://username.github.io'
