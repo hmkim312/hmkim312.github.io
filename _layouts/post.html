@@ -6,6 +6,12 @@ layout: default
 # © 2017-2019 Cotes Chung
 # MIT Licensed
 ---
+{% assign img_src = content | split: '<img src="' | last | split: '"' | first %}
+{% if img_src contains '<' or img_src == "" %}
+    {% assign img_src = "https://datainclude.me/assets/img/sample/avatar.jpg" %}
+{% endif %}
+
+<meta property="og:image" content="{{ img_src }}" />
 
 <div class="row">
 
