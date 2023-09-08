@@ -3,7 +3,7 @@ title: PCA, t-SNE, LDA으로 알아보는 차원 �
 author: HyunMin Kim
 date: 2023-09-08 00:00:00 0000
 categories: [Data Science, Machine Learning]
-tags: [PCA, t-SNE]
+tags: [PCA, t-SNE, LDA]
 image: https://github.com/hmkim312/datas/assets/60168331/c0589161-1276-4546-9a03-6788ca0b1618
 ---
 
