@@ -34,7 +34,7 @@ drive.mount('/content/drive')
 ```
 ```python
 authtoken = 'ngrok에서 복사한 token'
-password = '접속할때 쓸 password
+password = '접속할때 쓸 password'
 
 from colab_ssh import launch_ssh
 launch_ssh(authtoken, password)
