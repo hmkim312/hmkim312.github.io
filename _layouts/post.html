@@ -28,12 +28,8 @@ layout: default
           }
       }
   
-      window.addEventListener("load", function() {
-          if (document.documentElement.scrollTop > 0 || document.body.scrollTop > 0) {
-              loadAds();
-          }
-      }, { passive: true }); // Add passive option for better scroll performance
-    </script>
+      window.addEventListener("load", loadAds);
+  </script>
 
     <!-- 디스플레이광고 -->
     <!-- <ins class="adsbygoogle"
