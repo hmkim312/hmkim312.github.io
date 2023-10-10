@@ -25,37 +25,6 @@
 
   {% include favicons.html %}
 
-  <!-- Google tag (gtag.js) -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-WRZ15JE4P0"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-WRZ15JE4P0');
-  </script> -->
-  <!-- Google tag (gtag.js) -->
-  <script>
-    // GTM 초기화 함수
-    function initializeGTM() {
-      // GTM 코드
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-WRZ15JE4P0');
-  
-      // 이벤트 리스너 제거 (코드가 한 번만 실행되도록)
-      window.removeEventListener('mousemove', initializeGTM);
-      window.removeEventListener('touchstart', initializeGTM);
-    }
-  
-    // mousemove와 touchstart 이벤트에 대한 리스너 설정
-    window.addEventListener('mousemove', initializeGTM, { once: true });
-    window.addEventListener('touchstart', initializeGTM, { once: true });
-  </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WRZ15JE4P0"></script>
-  
-
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
   <link rel="dns-prefetch" href="https://fonts.gstatic.com">
@@ -120,4 +89,34 @@
   <script src="https://cdn.jsdelivr.net/combine/npm/popper.js@1.15.0,npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" async></script>
 
   {% include js-selector.html %}
+
+  <!-- Google tag (gtag.js) -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-WRZ15JE4P0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WRZ15JE4P0');
+  </script> -->
+  <!-- Google tag (gtag.js) -->
+  <script>
+    // GTM 초기화 함수
+    function initializeGTM() {
+      // GTM 코드
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-WRZ15JE4P0');
+  
+      // 이벤트 리스너 제거 (코드가 한 번만 실행되도록)
+      window.removeEventListener('mousemove', initializeGTM);
+      window.removeEventListener('touchstart', initializeGTM);
+    }
+  
+    // mousemove와 touchstart 이벤트에 대한 리스너 설정
+    window.addEventListener('mousemove', initializeGTM, { once: true });
+    window.addEventListener('touchstart', initializeGTM, { once: true });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WRZ15JE4P0"></script>
 </head>
