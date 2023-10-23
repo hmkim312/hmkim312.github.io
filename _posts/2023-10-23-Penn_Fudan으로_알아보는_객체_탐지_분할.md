@@ -4,7 +4,7 @@ author: HyunMin Kim
 date: 2023-10-23 00:00:00 0000
 categories: [Data Science, CV]
 tags: [Object Detection, Segmentation]
-image: https://github.com/hmkim312/hmkim312/assets/60168331/b98d7a4f-54b9-4618-8964-f2bbeaaa6691
+image: /assets/img/post/2023-10-23/02.png
 ---
 
 해당 게시물은 [Torch Vision의 객체 감지 미세조정 튜토리얼](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html)을 참고하여 작성되었습니다.
@@ -154,7 +154,7 @@ for i in range(1,6):
 ```
 
 
-<img src="https://github.com/hmkim312/hmkim312/assets/60168331/a794d854-c10a-4ab2-aeaf-5111de5d1d80" width=auto height=auto max-width=500>
+<img src="/assets/img/post/2023-10-23/01.png" width=auto height=auto max-width=500>
     
 
     
@@ -474,4 +474,4 @@ plt.axis('off')
 plt.show()
 ```
 
-<img src="https://github.com/hmkim312/hmkim312/assets/60168331/b98d7a4f-54b9-4618-8964-f2bbeaaa6691" width=auto height=auto max-width=500>
+<img src="/assets/img/post/2023-10-23/02.png" width=auto height=auto max-width=500>
