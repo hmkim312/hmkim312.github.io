@@ -1,5 +1,5 @@
 ---
-title: Penn-Fudan으로 알아보는 객체 탐지(Object Detection), 분할(Segmentation) with FasterRCNN.md
+title: Penn-Fudan으로 알아보는 객체 탐지(Object Detection), 분할(Segmentation) with FasterRCNN
 author: HyunMin Kim
 date: 2023-10-23 00:00:00 0000
 categories: [Data Science, CV]
