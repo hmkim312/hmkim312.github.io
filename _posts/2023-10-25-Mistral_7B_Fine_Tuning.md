@@ -11,7 +11,7 @@ Mistral 7B는 약 73억개의 파라미터를 가진 Large Language Model(LLM)�
 
 해당 블로그는 [Mistral-7B Fine-Tuning: A Step-by-Step Guide](https://gathnex.medium.com/mistral-7b-fine-tuning-a-step-by-step-guide-52122cdbeca8)를 참조하여 작성하였습니다. [원본 코드](https://colab.research.google.com/drive/1DYY1zPxC-iotrfEu3TSkUBtfm1xJWR-i?usp=sharing), [Huggingface](https://huggingface.co/gathnex/Mistral_Instruct_Gathnex)
 
-<img src= "/assets/img/post/2023-10-25/thumbnail.png" width=auto height=auto max-width=500>
+<img src= "/assets/img/post/2023-10-25/thumbnail.png" width=auto height=auto max-width=500 alt="썸네일">
 
 ## 1. 패키지 설치 및 로드
 
