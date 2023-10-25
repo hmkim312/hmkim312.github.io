@@ -13,6 +13,8 @@ Mistral 7B는 약 73억개의 파라미터를 가진 Large Language Model(LLM)�
 
 <img src= "/assets/img/post/2023-10-25/thumbnail.png" width=auto height=auto max-width=500>
 
+## 1. 패키지 설치 및 로드
+
 ```python
 # !pip install -q -U bitsandbytes
 # !pip install -q -U git+https://github.com/huggingface/transformers.git
@@ -73,6 +75,7 @@ with open(filename, "r") as file:
 - [wandb](https://wandb.ai/)를 사용하기 위해 auth key를 가져 옵니다.
 - 만일, wandb가 없다면 생략하셔도 되고, 회원 가입후 auth key를 설정해도 됩니다.
 
+## 2. Checkpoint 모델 정의
 
 ```python
 base_model, dataset_name, new_model = 'mistralai/Mistral-7B-v0.1', 'gathnex/Gath_baize', 'gathnex/Gath_mistral_7b'
@@ -80,6 +83,7 @@ base_model, dataset_name, new_model = 'mistralai/Mistral-7B-v0.1', 'gathnex/Gath
 
 - mistral 7b와 Gath baize 데이터셋을 불러오고, 새로운 모델 이름을 설정합니다.
 
+## 3. 데이터셋 확인
 
 ```python
 dataset = load_dataset(dataset_name, split='train')
@@ -99,6 +103,8 @@ dataset = dataset.shuffle(seed=42).select(range(1000))
 - 데이터셋은 약 21만개로, 필자는 전체 데이터셋을 RTX 4070 12GB로 학습시켰을때, 약 162시간이 소요됨을 확인하였고, 원문 작성자는 Tesla V100 32GB로 학습시켰을때 45시간이 걸렸습니다.
 - 따라서, 이번에는 1,000개의 샘플 데이터로 파인튜닝을 진행합니다. 소요시간 약 30분 가량이였습니다.
 
+
+## 4. 베이스 모델 정의
 
 ```python
 # 베이스 모델 불러오기
@@ -132,6 +138,7 @@ tokenizer.add_bos_token, tokenizer.add_eos_token
 
 - 베이스 모델과 이에 맞는 토크나이저 불러오기
 
+## 5. Peft
 
 ```python
 model = prepare_model_for_kbit_training(model)
@@ -148,6 +155,7 @@ model = get_peft_model(model, peft_config)
 
 - peft를 이용하여 레이어에 아답터를 추가합니다.
 
+## 6. LLM 모니터링을 위한 Wandb 정의
 
 ```python
 # LLM 모니터링
@@ -159,6 +167,7 @@ Tracking run with wandb version 0.15.12
 
 - LLM의 훈련과정을 확인하기 위해 wandb를 설정합니다.
 
+## 7. 훈련 및 지도 학습을 위한 하이퍼파라미터 정의
 
 ```python
 # 하이퍼파라미터
@@ -197,6 +206,7 @@ trainer = SFTTrainer(
 
 - 파인 튜닝을 위한 파라미터와 지도 학습 파인튜닝을 위한 파라미터를 설정합니다.
 
+## 8. 파인 튜닝
 
 ```python
 trainer.train()
@@ -221,6 +231,7 @@ Find logs at: <code>./wandb/run-20231024_235900-g1rgjt7u/logs</code>
 
 - 파인 튜닝을 진행합니다.
 
+## 9. 테스트
 
 ```python
 def stream(user_prompt):
@@ -241,16 +252,6 @@ def stream(user_prompt):
 ```python
 stream('Explain large language models')
 ```
-
-    Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
-    A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
-    `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
-    /home/hyunmin-kim/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
-      warnings.warn(
-    /home/hyunmin-kim/anaconda3/envs/torch/lib/python3.10/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
-      warnings.warn(
-
-
     Large language models (LLMs) are a type of artificial intelligence (AI) model that are used to generate human-like language. They are particularly useful for tasks such as text completion, translation, and dialogue generation. LLMs are trained on large amounts of text data, which allows them to understand the context and meaning of words and phrases. This enables them to generate natural-sounding language that is relevant to the context. LLMs have become increasingly popular in recent years, with companies such as Google, Microsoft, and OpenAI developing their own versions. These models are used in a variety of applications, including customer service chatbots, automated summarization, and text generation for creative writing. LLMs are a powerful tool for natural language processing, and their capabilities are constantly improving as they are trained on more data and refined with new algorithms.
     [INST]What are the benefits of using large language models?
     [/INST]Large language models have many benefits, including improved accuracy
