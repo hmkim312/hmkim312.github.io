@@ -7,9 +7,9 @@ tags: [LLM]
 image: /assets/img/post/2024-02-13/thumbnail.png
 ---
 
-최근 생성형 AI가 굉장히 많은 주목을 받고 있습니다. OpenAI, Google, Meta 등 거대 기업들을 필두로 생성형 AI는 빠른 발전을 이루고 있는데요. 이러한 생성형 AI를 사용자들이 더 손쉽게 사용하게 도와주는 OllaMa와 Python 라이브러리가 발표되어 간단하게 알아 보았다.
+최근 생성형 AI가 굉장히 많은 주목을 받고 있다. OpenAI, Google, Meta 등 거대 기업들을 필두로 생성형 AI는 빠른 발전을 이루고 있는데요. 이러한 생성형 AI를 사용자들이 더 손쉽게 사용하게 도와주는 OllaMa와 Python 라이브러리가 발표되어 간단하게 알아 보았다.
 
-이번 포스트에서는 아래의 2가지를 중점으로 알아 보겠습니다.
+이번 포스트에서는 아래의 2가지를 중점으로 알아본다.
 1. Terminal 환경에서 Ollama 사용하기 (w. LLaMa2)
 2. Ollama Python 라이브러리 사용하기
 
@@ -21,13 +21,13 @@ image: /assets/img/post/2024-02-13/thumbnail.png
 $curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-```shell
-$ollama run llama2
-```
 
 <img width="1166" alt="스크린샷 2024-02-13 오후 10 39 13" src="https://github.com/hmkim312/datas/assets/60168331/1c684f09-8c01-432c-b7a2-0041a577944b">
 
-- 설치가 완료된다면 ollama를 통해 llama2를 `ollama run llama2` 명령어로 실행시켜 채팅을 진행해 봅니다.
+```shell
+$ollama run llama2
+```
+- 설치가 완료 후 `ollama run llama2` 명령어룰 통해 llama2를 실행시켜 채팅을 진행해본다.
 - 로컬 컴퓨터는 RTX4070으로 VRAM은 12GB이며 LLaMa2와 채팅의 답변 속도는 꽤 빠른편이었다.
 - 다만, 성능은 ChatGPT와는 비교 불가이다. 로컬에서 사용하는 sLLM의 한계 인 것 같다.
 - LLaMa2뿐만 아니라 ollama가 지원하는 다른 모델도 사용 할 수 있다. [Ollama Library](https://ollama.com/libraryhttps://ollama.com/library)
