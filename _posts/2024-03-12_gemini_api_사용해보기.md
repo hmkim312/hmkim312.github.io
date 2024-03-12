@@ -1,13 +1,12 @@
 ---
-title: Ollama와 Python 라이브러리를 이용하여 LLaMa2를 로컬에서 사용하기 
+title: Gemini API 사용해보기
 author: HyunMin Kim
-date: 2024-02-13 00:00:00 0000
+date: 2024-03-12 00:00:00 0000
 categories: [Data Science, NLP]
 tags: [LLM]
 image: /assets/img/post/2024-03-12/thumbnail.png
 ---
 
-# Gemini API Python으로 사용해보기
 최근 Google에서 Gemini를 발표했습니다. 이어서 구글 Bard를 Gemini로 이름을 바꿨는데요. OpenAI의 ChatGPT처럼 웹 버전과 API 버전을 모두 지원합니다. 이번 포스팅에서는 Gemini를 API로 사용해 보는 방법에 대해 소개하겠습니다. Google AI for Developers의 [Quickstarts](https://ai.google.dev/tutorials/python_quickstart?_gl=1*1ofwqyx*_up*MQ..*_ga*OTM0NDM2ODA5LjE3MDk3MzY2MzI.*_ga_P1DBVKWT6V*MTcwOTczNjYzMS4xLjAuMTcwOTczNjYzMS4wLjAuMA..)를 참고했습니다.
 
 
