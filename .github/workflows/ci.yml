@@ -65,9 +65,11 @@ jobs:
           bundle install
 
       - name: Build Site
+        env:
+          PAGES_REPO_NWO: "hmkim312/hmkim312.github.io" # 본인의 사용자명과 저장소명으로 변경
         run: |
-          bash tools/build.sh
-
+          JEKYLL_ENV=production bundle exec jekyll b -d _site
+          
       - name: Test Site
         run: |
           bash tools/test.sh
