@@ -1,5 +1,5 @@
-{% comment %}
-  Get the last 5 posts from lastmod list.
+<!-- {% comment %}
+  Get the last 5 posts by date.
   v2.2
   https://github.com/cotes2020/jekyll-theme-chirpy
   © 2020 Cotes Chung
@@ -8,19 +8,28 @@
 
 {% assign MAX_SIZE = 5 %}
 
-{% assign all_list = "" | split: "" %}
-
-{% for entry in site.data.updates %}
-  {% capture elem %}
-    {{- entry.lastmod -}}::{{- entry.filename -}}
-  {% endcapture %}
-  {% assign all_list = all_list | push: elem %}
-{% endfor %}
-
-{% assign all_list = all_list | sort | reverse %}
+{% assign posts_list = site.posts | sort: 'date' | reverse %}
 
 {% assign update_list = "" | split: "" %}
 
-{% for entry in all_list limit:MAX_SIZE %}
-  {% assign update_list = update_list | push: entry %}
+{% for post in posts_list limit:MAX_SIZE %}
+  {% capture elem %}
+    {{- post.date | date: "%Y-%m-%d" -}}::{{- post.title -}}::{{- post.url | relative_url -}}
+  {% endcapture %}
+  {% assign update_list = update_list | push: elem %}
 {% endfor %}
+
+{% if update_list.size > 0 %}
+  <div id="access-lastmod" class="post" style="font-size: 0.85rem; margin-top: 2rem;">
+    <div class="panel-heading" style="font-size: 1rem; color: var(--heading-color); border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; margin-bottom: 0.5rem;">Recent Updates</div>
+    <ul class="post-content pl-0 pb-1 ml-1 mt-2" style="list-style: none; padding-left: 0;">
+      {% for item in update_list %}
+        {% assign post_meta = item | split:"::" %}
+        <li style="margin-bottom: 0.3rem;">
+          <a href="{{ post_meta[2] }}" style="color: var(--link-color);">{{ post_meta[1] }}</a>
+          <span class="text-muted small" style="font-size: 0.75rem; margin-left: 0.5rem;">{{ post_meta[0] }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %} -->

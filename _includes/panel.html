@@ -1,70 +1,72 @@
 <!--
-  The Pannel on right side (Desktop views)
-  v2.0
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2017-2019 Cotes Chung
+  The Panel on right side (Desktop views)
+  v2.3
+  © 2024 Your Name
   MIT License
 -->
 
 <div id="panel-wrapper" class="col-xl-3 pl-2 text-muted topbar-down">
-
   <div class="access">
+    {% if site.data.updates %}
+      {% assign MAX_SIZE = 5 %}
+      {% assign posts_list = site.posts | sort: 'date' | reverse %}
+      {% assign update_list = "" | split: "" %}
 
-  {% if site.data.updates %}
-
-    {% include update-list.html %}
-
-    {% if update_list.size > 0 %}
-
-    <div id="access-lastmod" class="post">
-      <h3 data-toc-skip>
-        {{- site.data.label.panel.lastmod -}}
-      </h3>
-      <ul class="post-content pl-0 pb-1 ml-1 mt-2">
-
-      {% for item in update_list %}
-        {% assign post_url = item | split: "::" | last | url_encode | prepend: "/posts/" | append: "/" %}
-        {% assign post = site.posts | where: "url", post_url | first %}
-
-        {% if post %}
-          {% assign url = post.url | relative_url %}
-          <li><a href="{{ url }}">{{ post.title }}</a></li>
-        {% endif %}
-
+      {% for post in posts_list limit:MAX_SIZE %}
+        {% capture elem %}
+          {{- post.date | date: "%Y-%m-%d" -}}::{{- post.title -}}::{{- post.url | relative_url -}}
+        {% endcapture %}
+        {% assign update_list = update_list | push: elem %}
       {% endfor %}
 
-      </ul>
-    </div><!-- #access-lastmod -->
-
+      {% if update_list.size > 0 %}
+        <div id="access-lastmod" class="post">
+          <h3 data-toc-skip>{{- site.data.label.panel.lastmod -}}</h3>
+          <ul class="post-content pl-0 pb-1 ml-1 mt-2">
+            {% for item in update_list %}
+              {% assign post_meta = item | split:"::" %}
+              <li class="recent-item">
+                <a href="{{ post_meta[2] }}">{{ post_meta[1] }}</a>
+                <span class="text-muted small">{{ post_meta[0] }}</span>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
     {% endif %}
 
-  {% endif %} <!-- site.data.updates -->
+    {% include trending-tags.html %}
 
-  {% include trending-tags.html %}
-
-  {% if trending_tags.size > 0 %}
-    <div id="access-tags">
-      <h3 data-toc-skip>
-        {{- site.data.label.panel.trending_tags -}}
-      </h3>
-      <div class="d-flex flex-wrap mt-3 mb-1 mr-3">
-
-      {% for tag in trending_tags %}
-        {% capture url %}/tags/{{ tag | downcase | url_encode }}/{% endcapture %}
-        <a class="post-tag" href="{{ url | relative_url }}">{{ tag | replace: '-', ' ' }}</a>
-      {% endfor %}
+    {% if trending_tags.size > 0 %}
+      <div id="access-tags">
+        <h3 data-toc-skip>{{- site.data.label.panel.trending_tags -}}</h3>
+        <div class="d-flex flex-wrap mt-3 mb-1 mr-3">
+          {% for tag in trending_tags %}
+            {% capture url %}/tags/{{ tag | downcase | url_encode }}/{% endcapture %}
+            <a class="post-tag" href="{{ url | relative_url }}">{{ tag | replace: '-', ' ' }}</a>
+          {% endfor %}
+        </div>
       </div>
-    </div>
-  {% endif %}
-  </div> <!-- .access -->
+    {% endif %}
+  </div>
 
   {% if page.layout == 'post' and site.toc and page.toc %}
-  <div id="toc-wrapper" class="pl-0 pr-4 mb-5">
-    <h3 data-toc-skip class="pl-3 pt-2 mb-2">
-      {{- site.data.label.panel.toc -}}
-    </h3>
-    <nav id="toc" data-toggle="toc"></nav>
-  </div>
+    <div id="toc-wrapper" class="pl-0 pr-4 mb-5">
+      <h3 data-toc-skip class="pl-3 pt-2 mb-2">{{- site.data.label.panel.toc -}}</h3>
+      <nav id="toc" data-toggle="toc"></nav>
+    </div>
   {% endif %}
+</div>
 
-</div> <!-- #panel-wrapper -->
+<style>
+  .recent-item {
+    margin-bottom: 0.5rem;
+  }
+  .recent-item a {
+    color: var(--link-color);
+  }
+  .recent-item .small {
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+  }
+</style>
