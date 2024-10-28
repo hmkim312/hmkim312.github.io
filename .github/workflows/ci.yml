@@ -70,6 +70,10 @@ jobs:
         if: steps.bundle-cache.outputs.cache-hit == 'true'
         run: |
           bundle install --local
+          
+      - name: Bundle Install
+        run: |
+          bundle install
 
       - name: Build Site
         run: |
