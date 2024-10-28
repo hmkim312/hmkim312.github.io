@@ -25,6 +25,10 @@ jobs:
         os: [ubuntu-latest, macos-latest]
 
     steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3.4'
@@ -43,11 +47,6 @@ jobs:
           brew install coreutils
           brew install yq
 
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-          
       - name: Install Bundler
         run: gem install bundler
 
@@ -66,10 +65,17 @@ jobs:
 
       - name: Build Site
         env:
-          PAGES_REPO_NWO: "hmkim312/hmkim312.github.io" # 본인의 사용자명과 저장소명으로 변경
+          PAGES_REPO_NWO: "hmkim312/hmkim312.github.io"
         run: |
           JEKYLL_ENV=production bundle exec jekyll b -d _site
-          
-      - name: Test Site
+
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/master'
         run: |
-          bash tools/test.sh
+          git config --global user.name "hmkim312"
+          git config --global user.email "sanarial312@gmail.com"
+          git add _site
+          git commit -m "Deploy to GitHub Pages"
+          git push --force origin `gh-pages`
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
