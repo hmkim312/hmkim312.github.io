@@ -47,6 +47,9 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
+          
+      - name: Install Bundler
+        run: gem install bundler
 
       - name: Bundle Caching
         id: bundle-cache
@@ -70,7 +73,7 @@ jobs:
         if: steps.bundle-cache.outputs.cache-hit == 'true'
         run: |
           bundle install --local
-          
+
       - name: Bundle Install
         run: |
           bundle install
