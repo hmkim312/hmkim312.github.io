@@ -74,7 +74,7 @@ jobs:
         run: |
           git config --global user.name "hmkim312"
           git config --global user.email "sanarial312@gmail.com"
-          git add _site
+          git add -f _site
           git commit -m "Deploy to GitHub Pages"
           git push --force origin `gh-pages`
         env:
