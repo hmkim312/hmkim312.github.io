@@ -83,6 +83,8 @@ disqus:
 #
 theme_mode: light
 
+future: true
+
 # boolean type, global switch for ToC in posts.
 toc: true
 
