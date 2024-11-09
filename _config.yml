@@ -12,14 +12,14 @@ title: Data Include Me                   # the main title
 
 tagline: Data Science Blog   # it will display as the sub-title
 
-meta_image: https://datainclude.me/assets/img/sample/avatar.jpg
+meta_image: https://hmkim312.github.io/assets/img/sample/avatar.jpg
 
 description: 데이터 사이언티스트를 위한 블로그입니다. 머신러닝, 딥러닝, 파이썬 및 데이터 분석에 관한 최신 정보와 튜토리얼을 제공합니다.  # used by seo meta and the atom feed
 
 
 
 # Replace with the website url, e.g. 'https://username.github.io'
-url: 'https://datainclude.me'
+url: 'https://hmkim312.github.io'
 
 author: HyunMin Kim                  # change to your full name
 
